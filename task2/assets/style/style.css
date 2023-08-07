@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    height: 40vh;
+    background-image: url("/task2/assets/images/design1_image1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+section{
+    height: 60vh;
+}
+body{
+    padding: 90px;
+}
+.titulo{
+    padding: 10px;
+}
+header>img{
+    position: absolute;
+    left: 80%;
+    top: 240px;
+    z-index: 3;
+    background-color: white;
+    border: black 1px solid;
+}
+nav{
+    margin-top: 290px;
+}
+nav a{
+    margin-bottom: 55px;
+    display: block;
+}
+h1{
+    margin-top: -80px;
+    margin-left: 10px;
+    color: white;
+    font-size: 4rem;
+}
+h4{
+    background-color: black;
+    color: white;
+    justify-content: center;
+    padding: 10px;
+    margin-top: -90px;
+    padding-left: 45%;
+}
+#contact-email{
+    margin-top: 55px;
+}
+#hidden{
+    visibility: hidden;
+}
+h3{
+    margin-top: 50px;
+}
+h3,p{
+    margin-left: 150px;
+}
