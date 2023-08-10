@@ -13,7 +13,9 @@ header{
 .logo{
     height: 60px;
     width: 60px;
-    
+}
+.uppercase{
+    text-transform: uppercase;
 }
 h1{
     color: white;
@@ -35,7 +37,11 @@ nav a{
     color: white;
 }
 a:hover{
+    display: flex;
     color: black;
+    border-bottom: 1px black solid;
+    transition: all 1s;
+    transition-delay: 0s;
 }
 
 article{
@@ -45,7 +51,7 @@ article{
 .hidden{
     height: 90px;
     width: 90px;
-    order: 3;
+    order: 1;
     margin-left: .5rem;
     border-radius: 5px;
 }
@@ -53,7 +59,7 @@ article{
     transform: translateY(-10.5rem);
 }
 #pos-img2{
-    transform: translateY(-17.5rem);
+    transform: translateY(-15.1rem);
 }
 #pos-img3{
     transform: translateY(-3rem);
@@ -61,18 +67,66 @@ article{
 h4{
     text-align: center;
     padding: .5rem;
+    background-color: black;
     border-bottom: 1px black solid;
-    text-transform: uppercase;
-    order: 1;
+    color: white;
     margin-bottom: 1rem;
+    width: 100%;
 }
-h3,p{
-    order: 2;
+.translate-x{
     transform: translateX(8rem);
-    width: 50%;
+}
+h3{
+    width: 70%;
 }
 p{
     margin-bottom: 1rem;
     margin-left: 2rem;
+    width: 80%;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#info-rules{
+    text-align: center;
+}
+.subt-rules{
+    display: flex;
+    width: 80%;
+    margin-bottom: 1rem;
+}
+.desc-rules{
+    margin-bottom: 2rem;
+
+}
+.sangria{   
+    text-indent: 1.5rem;
+}
+ol,ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+li{
     width: 75%;
+    margin-bottom: 1rem;
+}
+.list-style{
+    list-style: lower-alpha;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    bottom: 0;
+    position: fixed;
 }
