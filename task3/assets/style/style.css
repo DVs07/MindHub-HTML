@@ -4,6 +4,10 @@
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+main{
+    min-height: 73vh;
+}
+/* Header */
 header{
     display: flex;
     flex-direction: column;
@@ -43,7 +47,7 @@ a:hover{
     transition: all 1s;
     transition-delay: 0s;
 }
-
+/* Páginas Home, About & Contact */
 article{
     display: flex;
     flex-direction: column;
@@ -84,6 +88,7 @@ p{
     margin-left: 2rem;
     width: 80%;
 }
+/*  Página Rules */
 div{
     display: flex;
     flex-direction: column;
@@ -120,13 +125,43 @@ li{
     margin-bottom: 0;
     width: 100%;
 }
-
+#t-circle{
+    list-style-type: circle;
+}
+/* Página Games */
+table, tr, th, td{
+    padding: 1rem;
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+table{
+    margin-bottom: 2rem;
+}
+caption{
+    margin-bottom: .2rem;
+}
+thead{
+    background-color: black;
+    color: white;
+}
+.col-color{
+    background-color: rgb(21, 173, 72);
+    color: #FFFFFF;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 82.5%;
+}
 footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: black;
     color: white;
     width: 100%;
-    padding: 1rem;
-    text-align: center;
+    padding: .5rem;
     bottom: 0;
-    position: fixed;
 }
