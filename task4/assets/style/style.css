@@ -68,13 +68,18 @@ article{
 #pos-img3{
     transform: translateY(-3rem);
 }
-h4{
+h4,h5{
     text-align: center;
     padding: .5rem;
     background-color: black;
     color: white;
     margin-bottom: 1rem;
     width: 100%;
+}
+h5{
+    background-color: rgb(21, 173, 72);
+    padding: .2rem;
+    margin-bottom: 0;
 }
 .translate-x{
     transform: translateX(8rem);
@@ -147,12 +152,63 @@ thead{
     background-color: rgb(21, 173, 72);
     color: #FFFFFF;
 }
+.maps-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 80%;
+}
+.i-container{
+    border: 1px black solid;
+    margin-bottom: 1rem;
+}
+
+iframe{
+    width: 200px;
+    height: 190px;
+}
 .contact{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 82.5%;
+}
+/* Form */
+input{
+    margin-left: .5rem;
+    width: 100%;
+}
+.radio-label{
+    width: 70%;
+}
+.form-container{
+    border: 1px black solid;
+    display: flex;
+    max-width: 500px;
+    padding: 1rem;
+    border-radius: .2rem;
+}
+.set-radio{
+    width: 30%;
+}
+.spc-around{
+    justify-content: space-around;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+.mrg-btm{
+    margin-bottom: 1rem;
+}
+.w-100{
+    width: 100%;
 }
 footer{
     display: flex;
