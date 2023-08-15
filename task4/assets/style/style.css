@@ -305,4 +305,7 @@ footer{
     .contact{
         flex-direction: column;
     }
+    a:hover{
+        border: none;
+    }
 }
